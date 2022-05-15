@@ -109,7 +109,7 @@
 	}
   }
   
-  .buttons {
+  .btns {
 	max-width: 9rem;
 	width: 100%;
 	display: flex;
@@ -134,7 +134,7 @@
 	align-items: center;
   }
   
-  .button {
+  .btn {
 	height: 1rem;
 	width: 1rem;
 	background-color: white;
@@ -142,13 +142,13 @@
 	transition: ease-in-out 0.3s;
   }
   
-  label:hover .button {
+  label:hover .btn {
 	background-color: rgb(51, 43, 116);
 	transform: scale(1.2);
-	box-shadow: 0em 0em 0.2rem black;
+	box-shadow: 0rem 0rem 0.2rem black;
   }
   
-  label:active .button {
+  label:active .btn {
 	transform: scale(0.8);
   }
   
@@ -158,10 +158,10 @@
 	width: 0%;
   }
   
-  #r1:checked ~ .navigation > .buttons > label[for="r1"] > .button,
-  #r2:checked ~ .navigation > .buttons > label[for="r2"] > .button,
-  #r3:checked ~ .navigation > .buttons > label[for="r3"] > .button,
-  #r4:checked ~ .navigation > .buttons > label[for="r4"] > .button {
+  #r1:checked ~ .navigation > .btns > label[for="r1"] > .btn,
+  #r2:checked ~ .navigation > .btns > label[for="r2"] > .btn,
+  #r3:checked ~ .navigation > .btns > label[for="r3"] > .btn,
+  #r4:checked ~ .navigation > .btns > label[for="r4"] > .btn {
 	background-color: rgb(81, 54, 163);
 	transform: scale(1.15);
   }
